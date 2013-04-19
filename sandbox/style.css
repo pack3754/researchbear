@@ -1,0 +1,71 @@
+body 
+{
+  width:800px;
+  margin:15px auto;
+  font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+p
+{
+  margin:0 0 10px 0;
+}
+
+p, li
+{
+  line-height:20px;
+}
+
+header#main_header
+{
+  width:100%;
+}
+
+
+header#main_header nav ul, footer#main_footer nav ul
+{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+header#main_header nav ul li, footer#main_footer nav ul li
+{
+  padding:0;
+  margin: 0 20px 0 0;
+  display:inline;
+}
+
+section#main_content
+{
+  float:left;
+  width:70%;
+  padding-left:5%;
+}
+
+section#main_content aside
+{
+  float:right;
+  width:45%;
+  font-size:20px;
+  line-height:20px;
+  padding-top:10px;
+  padding-left:10px;
+  padding-bottom:70px;
+  background-image:url('ashamed-man.png');
+  background-repeat:no-repeat;
+  background-position:right bottom;
+}
+
+section#sidebar
+{
+  float:right;
+  width:20%;
+}
+
+footer#main_footer
+{
+  clear: both;
+  width:65%;
+  disply:block;
+  text-align:center;
+}
