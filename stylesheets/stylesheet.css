@@ -42,7 +42,7 @@ a:hover {
 
 header {
 z-index: 5;
-height: 155px;
+height: 125px;
 top:0px;
 left:0px;
 width:100%;
@@ -53,9 +53,10 @@ text-indent: 15px;
 -webkit-box-shadow: 0px 0px 40px 20px #e7e7e7;
 -webkit-box-shadow: 0px 0px 40px 20px #e7e7e7;
 -moz-box-shadow: 0px 0px 40px 20px #e7e7e7;
-box-shadow: 0px 0px 40px 20px #e7e7e7;
+box-shadow: 0px 0px 20px 40px #e7e7e7;
 /* Transparent background */
-background: #e7e7e7;
+/* background: #e7e7e7; */
+background-image: url('../images/highlight-bg.png');
 position: fixed;
 padding-top: 0;
 padding-bottom: 5px;
