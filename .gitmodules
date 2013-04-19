@@ -1,0 +1,9 @@
+[submodule "research/heliostat"]
+	path = research/heliostat
+	url = http://github.com/pack3754/unco-heliostat.git
+[submodule "research/mousebot"]
+	path = research/mousebot
+	url = http://github.com/mowoodsiii/unco-mousebot
+[submodule "research/rocketsat/rex11"]
+	path = research/rocketsat/rex11
+	url = http://github.com/mowoodsiii/unco-rocketsat-rex11
