@@ -1,4 +1,4 @@
-UNCO Physics Department: Student Research Projects
+Welcom to Research Bear!
 ========
 
-See: [Research Projects](http://pack3754.github.com/research)
+See: [Research Projects](http://unco.researchbear.com)
