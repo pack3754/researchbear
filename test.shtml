@@ -1,2 +1,2 @@
 <!--#echo var="DATE_LOCAL" -->
-<!--#include file="include.html" -->
+<!--#include file="include-file.html" -->
