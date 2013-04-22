@@ -6,7 +6,7 @@
   src: url('../fonts/trebucbd.ttf');
 }
 
-/* GLOBAL SETTINGS */
+/* GLOBAL STYLE SETTINGS */
 body 
 {
   font-size: 1em;
@@ -32,7 +32,7 @@ a:hover
 header#main_header
 {
   z-index: 5;
-  height: 105px;
+  height: 125px;
   top:0px;
   left:0px;
   width:100%;
@@ -73,7 +73,7 @@ header#main_header h2
 
 header#main_header nav#main_nav
 {
-	border: 2px solid #002e5f;
+	border-top: 2px solid #002e5f;
 	margin-left:0px;
 	margin-top:-10px;
 	margin-right:20%;
@@ -83,7 +83,8 @@ header#main_header nav#sub_nav
 {
 	z-index:6;
 	position: relative;
-	border: 2px solid #ee9831;
+	border-top: 2px solid #ee9831;
+  background: #e7e7e7;
 	margin-top:4px;
 	margin-right:25%;
 	-webkit-animation:hrExtend 1s ease-in-out; /* Safari and Chrome */
@@ -104,6 +105,7 @@ header#main_header nav ul li, footer#main_footer nav ul li
   margin: 0 20px 0 0;
   display:inline;
 }
+
 @-webkit-keyframes hrExtend /* Safari and Chrome */
 {
 	0%   {margin-top:-7px; margin-right:80%;}
@@ -115,13 +117,14 @@ header#main_header nav ul li, footer#main_footer nav ul li
 	0%   {margin-top:-7px; margin-right:80%;}
 	100% {margin-top:4px; margin-right:25%;}
 }
+
 @-moz-keyframes hrExtend /* Mozilla */
 {
 	0%   {margin-top:-7px; margin-right:80%;}
 	100% {margin-top:4px; margin-right:25%;}
 }
 
-nav a
+header#main_header nav a
 {
 	font-family:Trebuchet MS;
 	letter-spacing: 1px;
@@ -132,17 +135,12 @@ nav a
 	padding-left:15px;
 }
 
-nav a:hover
+header#main_header nav#main_nav a:hover
 {
 	text-decoration:none;
 	color:#aaa;
 	border-top:solid #ee9831;
 	border-top-spacing:10px;
-}
-
-nav
-{
-	margin-top:-9px;
 }
 
 nav .currentPage
@@ -156,7 +154,8 @@ nav .currentPage
 header#main_header nav#sub_nav
 {
 	text-decoration:none;
-	background-color:#999999;
+	background-color:#d3d3d3;
+	margin-top:0px;
 	margin-left:5px;
 	margin-right:5px;
 	padding-left:10px;
@@ -168,137 +167,63 @@ header#main_header nav#sub_nav
 	-moz-animation:blockColor 1s; /* Mozilla */
 }
 
-@-webkit-keyframes blockColor /* Safari and Chrome */
-{
-	0%   {background:#e7e7e7;}
-	75%   {background:#e7e7e7;}
-	100% {background:#999999;}
-}
-
-@-o-keyframes blockColor /* Opera */
-{
-	0%   {background:#e7e7e7;}
-	75%   {background:#e7e7e7;}
-	100% {background:#999999;}
-}
-
-@-moz-keyframes blockColor /* Mozilla */
-{
-	0%   {background:#e7e7e7;}
-	75%   {background:#e7e7e7;}
-	100% {background:#999999;}
-}
-
-#navigationPrj 
-{
-	margin-top:-7px;
-}
-
-#navigationPrj a
+header#main_header nav#sub_nav a
 {
 	font-family:Trebuchet MS;
 	letter-spacing: 1px;
 	font-size: 12px;
 	color: #555555;
 	font-weight: bold;
-	padding-right:15px;
+	padding-right:5px;
+	padding-left:0px;
 }
 
-#navigationPrj a:hover
+header#main_header nav#sub_nav a:hover
 {
 	text-decoration:none;
 	color:#aaa;
 }
 
+@-webkit-keyframes blockColor /* Safari and Chrome */
+{
+	0%     {background:#e7e7e7;}
+	100%   {background:#d3d3d3;}
+}
+
+@-o-keyframes blockColor /* Opera */
+{
+	0%    {background:#e7e7e7;}
+	100%  {background:#d3d3d3;}
+}
+
+@-moz-keyframes blockColor /* Mozilla */
+{
+	0%    {background:#e7e7e7;}
+	100%   {background:#d3d3d3;}
+}
 
 section#main_content
 {
-	margin-top:190px;
-	min-height: 595px;
-	min-width:900px;
-}
-
-section
-{
 	width: 620px;
-	min-width:700px;
-	margin: auto;
+	min-width:620px;
+	margin: 180px auto auto auto;
 	text-align:justify;
 }
 
-section img 
+section#main_content header 
+{
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
+  font-size:32px;
+  color:#999999
+}
+
+section#main_content img 
 {
 	max-width: 100%;
 }
 
-a.button 
+code, pre 
 {
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;                     
-	border-radius: 20px;
-	border-top: solid 1px #cbcbcb;
-	border-left: solid 1px #b7b7b7;
-	border-right: solid 1px #b7b7b7;
-	border-bottom: solid 1px #b3b3b3;
-	color: #303030;
-	line-height: 12px;
-	font-weight: bold;
-	font-size: 15px;
-	padding: 12px 8px 2px 8px;
-	display: block;
-	float: left;
-	width: 179px;
-	margin-right: 10px;  
-	background: #fdfdfd; /* Old browsers */
-	background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* IE10+ */
-	background: linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
-	-webkit-box-shadow: 10px 10px 5px #888;
-	moz-box-shadow: 10px 10px 5px #888;
-	box-shadow: 0px 1px 5px #e8e8e8;
-}
-
-a.button:hover 
-{
-	border-top: solid 1px #b7b7b7;
-	border-left: solid 1px #b3b3b3;
-	border-right: solid 1px #b3b3b3;
-	border-bottom: solid 1px #b3b3b3;
-	background: #fafafa; /* Old browsers */
-	background: -moz-linear-gradient(top,  #fdfdfd 0%, #f6f6f6 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* IE10+ */
-	background: linear-gradient(top,  #fdfdfd 0%,#f6f6f6, 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
-}
-
-a.button span 
-{
-	padding-left: 10px;
-	display: block;
-	height: 23px;
-}
-
-#tutorials span {
-}
-
-#demos span {
-}
-
-#past-projects span {
-}
-
-#past-projects {
-	margin-right: 0;
-}
-
-code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   color: #222;
   margin-bottom: 20px;
@@ -334,12 +259,6 @@ pre code
 ul, ol, dl 
 {
   margin-bottom: 20px;
-}
-
-ul .nestedList
-{
-	margin-bottom:0px;
-	list-style: none;
 }
 
 table.figureright 
@@ -468,7 +387,8 @@ h10
 
 h10 span 
 {
-	position:absolute; top:-175px;
+	position:absolute; 
+  top:-175px;
 }
 
 p 
@@ -513,7 +433,7 @@ dl dt
   color: #303030;
 }
 
-footer 
+footer#main_footer
 {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   margin-top: 40px;
