@@ -102,7 +102,7 @@ header#main_header nav ul, footer#main_footer nav ul
 header#main_header nav ul li, footer#main_footer nav ul li
 {
   padding:0;
-  margin: 0 20px 0 0;
+  margin: 0 15px 0 0;
   display:inline;
 }
 
@@ -143,7 +143,7 @@ header#main_header nav#main_nav a:hover
 	border-top-spacing:10px;
 }
 
-nav .currentPage
+nav#main_nav .currentPage
 {
 	text-decoration:none;
 	color:#aaa;
@@ -210,16 +210,22 @@ section#main_content
 	text-align:justify;
 }
 
-section#main_content header 
+section#main_content header h1
 {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   font-size:32px;
-  color:#999999
+  color:#666666
 }
 
 section#main_content img 
 {
 	max-width: 100%;
+}
+
+article header h2
+{
+  font-size:28px;
+  color:#999999
 }
 
 code, pre 
@@ -436,11 +442,15 @@ dl dt
 footer#main_footer
 {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
   color: #aaa;
+  text-align:center;
 }
 
 footer a 
