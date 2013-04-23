@@ -73,7 +73,7 @@ header#main_header h2
 
 header#main_header nav#main_nav
 {
-	border-top: 2px solid #002e5f;
+	border-top: 4px solid #002e5f;
 	margin-left:0px;
 	margin-top:-10px;
 	margin-right:20%;
@@ -83,13 +83,18 @@ header#main_header nav#sub_nav
 {
 	z-index:6;
 	position: relative;
-	border-top: 2px solid #ee9831;
-  background: #e7e7e7;
-	margin-top:4px;
+	border-top: 4px solid #ee9831;
+	background: #e7e7e7;
 	margin-right:25%;
+
 	-webkit-animation:hrExtend 1s ease-in-out; /* Safari and Chrome */
 	-o-animation:hrExtend 1s ease-in-out; /* Opera */
 	-moz-animation:hrExtend 1s ease-in-out; /* Mozilla */
+	text-decoration:none;
+	padding-right:10px;
+	padding-bottom:6px;
+	padding-top:2px;
+
 }
 
 header#main_header nav ul, footer#main_footer nav ul
@@ -109,20 +114,20 @@ header#main_header nav ul li, footer#main_footer nav ul li
 
 @-webkit-keyframes hrExtend /* Safari and Chrome */
 {
-	0%   {margin-top:-7px; margin-right:80%;}
-	100% {margin-top:4px; margin-right:25%;}
+	0% {margin-top:-7px; margin-right:80%; border-top: 4px solid #ffffff;}
+	100% {margin-top:0px; margin-right:25%; border-top: 4px solid #ee9831;}
 }
 
 @-o-keyframes hrExtend /* Opera */
 {
-	0%   {margin-top:-7px; margin-right:80%;}
-	100% {margin-top:4px; margin-right:25%;}
+	0% {margin-top:-7px; margin-right:80%; border-top: 4px solid #ffffff;}
+	100% {margin-top:0px; margin-right:25%; border-top: 4px solid #ee9831;}
 }
 
 @-moz-keyframes hrExtend /* Mozilla */
 {
-	0%   {margin-top:-7px; margin-right:80%;}
-	100% {margin-top:4px; margin-right:25%;}
+	0% {margin-top:-7px; margin-right:80%; border-top: 4px solid #ffffff;}
+	100% {margin-top:0px; margin-right:25%; border-top: 4px solid #ee9831;}
 }
 
 header#main_header nav a
@@ -141,28 +146,16 @@ header#main_header nav#main_nav a:hover
 	text-decoration:none;
 	color:#aaa;
 	border-top:solid #ee9831;
-	border-top-spacing:10px;
 }
 
 nav#main_nav .currentPage
 {
 	text-decoration:none;
-	color:#aaa;
-	border-top:solid #ee9831;
-	border-top-spacing:10px;
-	background-color:#d3d3d3;
-}
-
-header#main_header nav#sub_nav
-{
-	text-decoration:none;
-	margin-top:0px;
-	margin-left:5px;
-	margin-right:5px;
-	padding-left:10px;
-	padding-right:10px;
-	padding-bottom:6px;
-	padding-top:2px;
+	color:#6d6d6d;
+border-top:solid #ee9831;
+	padding-bottom:2px;
+	padding-top:1px;
+	background-color:#999999;
 	-webkit-animation:blockColor 1s; /* Safari and Chrome */
 	-o-animation:blockColor 1s; /* Opera */
 	-moz-animation:blockColor 1s; /* Mozilla */
@@ -170,20 +163,23 @@ header#main_header nav#sub_nav
 
 @-webkit-keyframes blockColor /* Safari and Chrome */
 {
-	0%     { width:0%; }
-	100%   { width:100%;}
+	0%   {background:#e7e7e7;}
+	75%   {background:#e7e7e7;}
+	100% {background:#999999;}
 }
 
 @-o-keyframes blockColor /* Opera */
 {
-	0%     { width:0%; background:#e7e7e7; }
-	100%   { width:100%; background:#d3d3d3;}
+	0%   {background:#e7e7e7;}
+	75%   {background:#e7e7e7;}
+	100% {background:#999999;}
 }
 
 @-moz-keyframes blockColor /* Mozilla */
 {
-	0%     { width:0%; background:#e7e7e7; }
-	100%   { width:100%; background:#d3d3d3;}
+	0%   {background:#e7e7e7;}
+	75%   {background:#e7e7e7;}
+	100% {background:#999999;}
 }
 
 header#main_header nav#sub_nav a
