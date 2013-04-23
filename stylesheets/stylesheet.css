@@ -150,12 +150,12 @@ nav#main_nav .currentPage
 	color:#aaa;
 	border-top:solid #ee9831;
 	border-top-spacing:10px;
+	background-color:#d3d3d3;
 }
 
 header#main_header nav#sub_nav
 {
 	text-decoration:none;
-	background-color:#d3d3d3;
 	margin-top:0px;
 	margin-left:5px;
 	margin-right:5px;
@@ -170,8 +170,8 @@ header#main_header nav#sub_nav
 
 @-webkit-keyframes blockColor /* Safari and Chrome */
 {
-	0%     { width:0%; background:#e7e7e7; }
-	100%   { width:100%; background:#d3d3d3;}
+	0%     { width:0%; }
+	100%   { width:100%;}
 }
 
 @-o-keyframes blockColor /* Opera */
