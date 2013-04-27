@@ -118,7 +118,7 @@
 		position: relative;
 		border-top: 4px solid #ee9831;
 		background: #e7e7e7;
-		margin-right:15%;
+		margin-right:18%;
 		margin-top:0px;
 		-webkit-animation:hrExtend 1s ease-in-out;
 		-o-animation:hrExtend 1s ease-in-out;
@@ -504,17 +504,17 @@
 	@-webkit-keyframes hrExtend /* Safari and Chrome */
 	{
 		0% {margin-top:-7px; margin-right:80%; border-top: 4px solid #ffffff;}
-		100% {margin-top:0px; margin-right:15%; border-top: 4px solid #ee9831;}
+		100% {margin-top:0px; margin-right:18%; border-top: 4px solid #ee9831;}
 	}
 	@-o-keyframes hrExtend /* Opera */
 	{
 		0% {margin-top:-7px; margin-right:80%; border-top: 4px solid #ffffff;}
-		100% {margin-top:0px; margin-right:15%; border-top: 4px solid #ee9831;}
+		100% {margin-top:0px; margin-right:18%; border-top: 4px solid #ee9831;}
 	}
 	@-moz-keyframes hrExtend /* Mozilla */
 	{
 		0% {margin-top:-7px; margin-right:80%; border-top: 4px solid #ffffff;}
-		100% {margin-top:0px; margin-right:15%; border-top: 4px solid #ee9831;}
+		100% {margin-top:0px; margin-right:18%; border-top: 4px solid #ee9831;}
 	}
 
 	/*Animations for buttons*/
