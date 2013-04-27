@@ -112,16 +112,17 @@
 		color:#aaa;
 	}
 
-	header#main_header nav#sub_nav_hr
+	header#main_header hr#sub_nav_hr
 	{
 		z-index:6;
 		position: relative;
 		border-top: 4px solid #ee9831;
 		background: #e7e7e7;
 		margin-right:15%;
-		-webkit-animation:hrExtend 1s ease-in-out; /* Safari and Chrome */
-		-o-animation:hrExtend 1s ease-in-out; /* Opera */
-		-moz-animation:hrExtend 1s ease-in-out; /* Mozilla */
+		margin-top:0px;
+		-webkit-animation:hrExtend 1s ease-in-out;
+		-o-animation:hrExtend 1s ease-in-out;
+		-moz-animation:hrExtend 1s ease-in-out;
 		text-decoration:none;
 		text-indent:10px;
 		padding-right:10px;
