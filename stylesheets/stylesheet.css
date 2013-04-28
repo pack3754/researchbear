@@ -602,3 +602,21 @@ a.button span {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+
+
+/* Dan's section - for testing */
+section#main_content aside
+{
+  float:right;
+  width:45%;
+  font-size:20px;
+  line-height:22px;
+  padding-top:10px;
+  padding-left:30px;
+  padding-bottom:140px;
+  background-image:url('../images/researchbear.png');
+  background-repeat:no-repeat;
+  background-position:right bottom;
+}
+
