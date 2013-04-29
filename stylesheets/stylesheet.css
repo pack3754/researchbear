@@ -606,31 +606,28 @@ a.button span {
 
 
 /* Dan's section - for testing */
-section#main_content aside#researchbear_says
+section#main_content aside
 {
   float:right;
-  width:45%;
+  width:35%;
   font-size:20px;
   line-height:22px;
   padding-top:10px;
   padding-left:30px;
   padding-bottom:140px;
-  background-image:url('../images/researchbear-small.png');
   background-repeat:no-repeat;
   background-position:right bottom;
+  background-size:50%;
+  text-align:right;
+}
+
+section#main_content aside#researchbear_says
+{
+  background-image:url('../images/researchbear-small.png');
 }
 
 section#main_content aside#ashamedman_says
 {
-  float:right;
-  width:45%;
-  font-size:20px;
-  line-height:22px;
-  padding-top:10px;
-  padding-left:30px;
-  padding-bottom:80px;
   background-image:url('../images/ashamedman-small.png');
-  background-repeat:no-repeat;
-  background-position:right bottom;
 }
 
