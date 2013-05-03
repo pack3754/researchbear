@@ -147,6 +147,7 @@
 	  margin: 0 10px 0 0;
 	  display:inline;
 	  white-space:no-wrap;
+          color:#;
 	}
 
 	header#main_header nav a
@@ -216,6 +217,7 @@
 	footer a:hover 
 	{
 	  color: #444;
+          text-decoration:none;
 	}
 
 /*SPECIAL CONTENT-AREA AND CLASS STYLES*/
@@ -292,14 +294,12 @@ a.button {
 }
 
 a.button:hover {
-  padding: 10px 6px 10px 6px;
   border-top: solid 3px #ee9831;
   border-left: solid 3px #ee9831;
   border-right: solid 3px #ee9831;
   border-bottom: solid 3px #ee9831;
-  color: #cccccc;
+  color: #444444;
   text-decoration: none;
-  background: #4c5660;
   -webkit-box-shadow: 10px 10px 5px #111;
   -moz-box-shadow: 10px 10px 5px #111;
   box-shadow: 3px 3px 8px #333333;
@@ -608,21 +608,34 @@ section#main_content aside
   font-size:20px;
   line-height:22px;
   padding-top:10px;
-  padding-left:30px;
+  padding-left:20px;
+  padding-right:20px;
   padding-bottom:140px;
-  background-repeat:no-repeat;
-  background-position:right bottom;
-  background-size:50%;
-  text-align:right;
+  margin-left:30px;
+  text-align:justify;
+  background:#cccccc;
+}
+
+section#main_content aside p
+{
+  margin-top:2px; 
+  margin-bottom:2px; 
+  font-size:16px;
 }
 
 section#main_content aside#researchbear_says
 {
   background-image:url('../images/researchbear-small.png');
+  background-position:left bottom;
+  background-repeat:no-repeat;
+  background-size:50%;
 }
 
 section#main_content aside#ashamedman_says
 {
   background-image:url('../images/ashamedman-small.png');
+  background-position:right bottom;
+  background-repeat:no-repeat;
+  background-size:50%;
 }
 
