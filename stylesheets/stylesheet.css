@@ -609,14 +609,15 @@ section#main_content aside
   padding-top:10px;
   padding-left:20px;
   padding-right:20px;
-  padding-bottom:140px;
+  padding-bottom:130px;
+  margin-bottom:20px;
   text-align:justify;
   background:#cccccc;
 }
 
 section#main_content aside p
 {
-  margin-left:20px;
+  margin-left:10px;
   float:right;
   margin-top:2px; 
   margin-bottom:2px; 
@@ -629,7 +630,7 @@ section#main_content aside#researchbear_says
   background-image:url('../images/researchbear-small.png');
   background-position:left bottom;
   background-repeat:no-repeat;
-  background-size:50%;
+  background-size:40%;
   margin-right:30px;
 }
 
@@ -639,7 +640,12 @@ section#main_content aside#ashamedman_says
   background-image:url('../images/ashamedman-small.png');
   background-position:right bottom;
   background-repeat:no-repeat;
-  background-size:50%;
+  background-size:40%;
   margin-left:30px;
 }
 
+video
+{
+  width:100%;
+  margin:10px 0 10px 0;
+}
