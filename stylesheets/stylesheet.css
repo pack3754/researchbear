@@ -626,22 +626,22 @@ section#main_content aside p
 
 section#main_content aside#researchbear_says
 {
-  float:left;
+  float:right;
   background-image:url('../images/researchbear-small.png');
   background-position:left bottom;
   background-repeat:no-repeat;
   background-size:40%;
-  margin-right:30px;
+  margin-left:20px;
 }
 
 section#main_content aside#ashamedman_says
 {
-  float:right;
+  float:left;
   background-image:url('../images/ashamedman-small.png');
   background-position:right bottom;
   background-repeat:no-repeat;
   background-size:40%;
-  margin-left:30px;
+  margin-right:20px;
 }
 
 video
