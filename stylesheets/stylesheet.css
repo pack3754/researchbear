@@ -194,7 +194,7 @@
 
 	footer#main_footer hr, section#main_content hr
   {
-		z-index:6;
+		z-index:1;
 		position: relative;
 		background: #000;
     margin-top:10px;
