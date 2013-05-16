@@ -644,8 +644,42 @@ section#main_content aside#ashamedman_says
   margin-right:20px;
 }
 
+/* DHP */
 video
 {
   width:100%;
   margin:10px 0 10px 0;
+}
+
+#tuts ul
+{
+  list-style:none;
+  margin:0;
+  padding:0;
+  white-space:no-wrap;
+}
+
+#tuts ul li
+{
+  padding:0;
+  margin: 0 10px 0 0;
+  display:inline;
+  white-space:no-wrap;
+  border-style:solid;
+  border-color:#000;
+  border-width:1px;
+  padding-top:55px;
+  max-width:10%;
+}
+
+#tuts footer
+{
+  margin-top:5px;
+  text-align:right;
+  font-size:14px;
+}
+
+#tuts footer a
+{
+  color:#333;
 }
