@@ -1,2 +1,1 @@
-Options +Includes
-XBitHack on
+ErrorDocument 404 /notfound.html
