@@ -1,4 +1,4 @@
-Welcom to Research Bear!
+Welcome to Research Bear!
 ========
 
-See: [Research Projects](http://unco.researchbear.com)
+See: [unco.researchbear.com](http://unco.researchbear.com)
