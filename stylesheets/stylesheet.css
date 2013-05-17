@@ -656,30 +656,42 @@ video
   list-style:none;
   margin:0;
   padding:0;
-  white-space:no-wrap;
+  clear:float;
 }
 
 #tuts ul li
 {
-  padding:0;
-  margin: 0 10px 0 0;
+  padding:5px 0px 5px 0px;
+  margin: 0px 20px 0 20px;
   display:inline;
-  white-space:no-wrap;
+  float:left;
+}
+
+#tuts p
+{
+  z-index 2;
+  margin:-70px 0px 0px -10px;
+  padding: 65px 0px 0px 5px;
   border-style:solid;
-  border-color:#000;
-  border-width:1px;
-  padding-top:55px;
-  max-width:10%;
+  border-color:#002e5f;
+  border-width:2px;
+  width:165px;
 }
 
 #tuts footer
 {
   margin-top:5px;
+  margin-right:25px;
   text-align:right;
   font-size:14px;
 }
 
 #tuts footer a
 {
-  color:#333;
+  color:#002e5f;
+}
+
+#tuts footer a:hover
+{
+  color:#ee9831;
 }
