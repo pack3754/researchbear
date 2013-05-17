@@ -219,12 +219,55 @@
 	  color: #444;
           text-decoration:none;
 	}
+	
+/*ARTICLE SETTINGS*/
+    article footer
+	{
+	  font-size: 8pt;
+	  font-style:italic;
+	}
+
 
 /*SPECIAL CONTENT-AREA AND CLASS STYLES*/
-	article header h2
+	figure
 	{
-	  font-size:28px;
-	  color:#0a0a0a
+	  width:260px;
+	  float:right;
+	  margin:5px -100px 5px 15px;
+	  padding: 5px;
+	  border: 2px dotted gray;
+
+	}
+	
+	figure img
+	{
+	  display:block;
+	  width:250px;
+	  margin-left:auto;
+	  margin-right:auto;
+	}
+	
+	figcaption
+	{
+	  font-size:0.8em;
+	  color:#999999;
+	  text-align: center;
+	}
+	
+	figcaption.title
+	{
+	  font-size:1em;
+	  color:#666666;
+	  text-align: center; 
+	  text-decoration:underline;
+	  font-variant:small-caps;
+	}
+	
+	a.figref
+	{
+	  text-decoration:underline;
+	  font-variant:small-caps;
+	  color:#666666;
 	}
 
 	code, pre 
@@ -411,14 +454,14 @@ margin-top:70px;
 
 	h1 
 	{
-	  font-size: 32px;
+	  font-size: 45px;
 	} 
 
 	h2 
 	{
-	  font-size: 28px;
+	  font-size: 26px;
 	  font-weight: bold;
-	  color: #666666;
+	  color: #002e5f;
 	  margin-bottom: 8px;
 	  font-variant:small-caps;
 	} 
@@ -696,3 +739,13 @@ video
 {
   color:#ee9831;
 }
+
+
+
+
+
+
+/*NOTES
+  Blue color: #002e5f
+  Yellow color: #ee9831
+*/
