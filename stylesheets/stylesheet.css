@@ -286,6 +286,17 @@
 	  padding-right: 15px;
 	  margin-left: 35px;
 	}
+	
+	img.thumbnail
+	{
+	  transition:width .3s;
+      -webkit-transition:width .3s;
+	}
+	
+	img.thumbnail:hover
+	{
+	  width:150px;
+	}
 
 	pre 
 	{
@@ -585,14 +596,15 @@ margin-top:70px;
 		100% {margin-top:0px; margin-right:18%; border-top: 4px solid #ee9831;}
 	}
 
-	/*Animations for buttons*/
-	@-webkit-keyframes buttons /* Safari and Chrome */
+	/*Animations for thumbnails*/
+	@-webkit-keyframes thumbnails /* Safari and Chrome */
+	{
+		
+	}
+	@-o-keyframes thumbnails /* Opera */
 	{
 	}
-	@-o-keyframes buttons /* Opera */
-	{
-	}
-	@-moz-keyframes buttons /* Mozilla */
+	@-moz-keyframes thumbnails /* Mozilla */
 	{
 	}
 
@@ -733,6 +745,7 @@ video
 #tuts footer a
 {
   color:#002e5f;
+  white-space:nowrap;
 }
 
 #tuts footer a:hover
