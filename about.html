@@ -19,7 +19,8 @@
         <ul>
       </nav>
     </header>
-
+	
+  <section id="wrapper">
     <section id="main_content">
       <h10><span id="top"></span></h10>
       <header><h1>ABOUT RESEARCHBEAR</h1></header>
@@ -31,16 +32,19 @@
 
           <h10><span id="BOOKMARK_DIV_TITLE1"></span></h10>
           <h3>BOOKMARKTITLE1</h3>
-            <table class="figureright" align="right" width="260px">
-              <tr><td class="figure"><img src="images/dan.png" width="260px"></td></tr>
-              <tr><th class="figure">Figure 1</th></tr>
-              <tr><td class="figure"> Daniel Packard - Software sorcerer extraordinaire</td></tr>
-            </table>
-            <table class="figureright" align="right" width="260px">
-              <tr><td class="figure"><img src="images/mo.png" width="260px"></td></tr>
-              <tr><th class="figure">Figure 2</th></tr>
-              <tr><td class="figure"> Maurice Woods - Does lots of things! Kinda!</td></tr>
-            </table>
+			<div id="multifigurewrapper" class="right">
+			<figure>
+			  <img src="images/dan.png">
+			  <figcaption class="title">Figure 1</figcaption>
+			  <figcaption> Daniel Packard - Software sorcerer extraordinaire!</figcaption>
+			</figure>
+			<figure>
+			  <img src="images/mo.png">
+			  <figcaption class="title">Figure 2</figcaption>
+			  <figcaption> Maurice Woods - Does lots of things too!<br>Sorta!</figcaption>
+			</figure>
+			</div>
+
             <p>CONTENT</p>
 
           <h10><span id="BOOKMARK_DIV_TITLE2"></span></h10>
@@ -68,6 +72,7 @@
         </nav>
       </footer>
     </section>
+  </section>
   
   </body>
 </html>

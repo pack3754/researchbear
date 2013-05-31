@@ -17,6 +17,12 @@
 	  margin: 0px 0px 0px 25px;
 	}
 	
+	section#wrapper
+	{
+	  width:820px;
+	  margin: 0px auto 0px auto;
+	}
+	
 	section#main_content
 	{
 	  width: 620px;
@@ -229,14 +235,22 @@
 
 
 /*SPECIAL CONTENT-AREA AND CLASS STYLES*/
-	figure
+	.right
 	{
-	  width:260px;
 	  float:right;
 	  margin:5px -100px 5px 15px;
+	}
+	
+	.left
+	{
+	  float:left;
+	  margin:5px 15px 5px -100px;
+	}
+	
+	figure
+	{
 	  padding: 5px;
 	  border: 2px dotted gray;
-
 	}
 	
 	figure img
