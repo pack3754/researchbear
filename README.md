@@ -1,4 +1,4 @@
 Welcome to Research Bear!
 ========
 
-See: [researchbear.com](http://researchbear.com)
+// currently migrating website 2014-01-25
